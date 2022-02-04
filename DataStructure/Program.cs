@@ -11,11 +11,11 @@ namespace DataStructure
 
             Console.WriteLine("SEARCH OPERATIONS !");
             LinkedList list = new LinkedList();
-            list.Appending(56); 
-            list.Appending(30);
-            list.Appending(70);
-            Console.WriteLine("Display Nodes are");
+            list.Add(56);
+            //list.Add(30);
+            list.Add(70);
             list.Display();
+            list.InsertAtParticularPosition(2, 30);      
             Console.WriteLine("========================================================================================");
             Console.ReadLine();
         }
